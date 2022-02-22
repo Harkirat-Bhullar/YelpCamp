@@ -1,9 +1,16 @@
 <% layout ('layouts/boilerplate') %>
-    <h1>Register</h1>
+<div class="container justify-content-center align-items-center mt-3">
+<div class="row">
+<div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+<div class="card shadow">
+<img src="https://media.istockphoto.com/photos/sign-post-in-an-idaho-forest-requires-hikers-and-campers-to-register-picture-id1054003400?b=1&k=20&m=1054003400&s=170667a&w=0&h=a5uNB0CHys_daBEJ0rGLmfPK0RahFwDOntPljbsY8zc=" 
+alt="" class="card-img-top">
+<div class="card-body">
+<h5 class="card-title">Register</h5>
     <form action="/register" method="POST" class="validated-form" novalidate>
         <div class="mb-3">
             <label class="form-label" for="username">Username</label>
-            <input class="form-control" type="text" id="username" name="username" required>
+            <input class="form-control" type="text" id="username" name="username" required autofocus>
             <div class="valid-feedback">
                 Looks good!
             </div>
@@ -22,5 +29,13 @@
                 Looks good!
             </div>
         </div>
-        <button class="btn btn-success">Register</button>
+        <div class="d-grid">              
+            <button class="btn btn-success">Register</button>            
+        </div>
     </form>
+</div>
+</div>
+</div>
+</div>
+</div>
+    
